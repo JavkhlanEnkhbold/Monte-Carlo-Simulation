@@ -2,8 +2,6 @@ import numpy as np
 import random
 import matplotlib.pyplot as plt
 
-
-
 def flip_coin():
     return random.randint(0, 1)
 
@@ -15,8 +13,6 @@ def plot_simulation_result(result):
     plt.grid(True)
     plt.plot(result)
         
-    
-
 def run_simulation(number_of_iteration):
     probability_of_values = []
     results = 0
